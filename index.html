@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+
+        <!-- <<<<<<<<<<<<<links>>>>>>>>>>>>>>>>> -->
+            
+        <link rel="stylesheet" href="./styles/index.css">
+        <link rel="stylesheet" href="./styles/nav.css">
+        
+    </head>
+
+    <body>
+        <!-- <<<<<<<<<<<<<<<<<<loadHeader>>>>>>>>>>> -->
+    
+        <div id="navbar">
+            <div id="leftSpace"></div>
+            <div id="login"><a href="login.html">Login</a></div>
+            <div id="signup"><a href="signup.html">Signup</a></div>
+            <div id="home"><a href="index.html">Home</a></div>
+        </div>
+
+
+        <!-- <<<<<<<<<<<<<<<<loadData>>>>>>>>>> -->
+
+        
+        <div id="slideshow">
+            <!--Show Slideshow here-->
+
+        </div>
+
+        <div id="sort-buttons">
+
+            <!--Add sorting here-->
+            <div id="play" class="button" onclick="start()">></div>
+            <div id="pause"class="button" onclick="stop()">=</div>
+        </div>
+        <div id="movies">
+            <!--Show list of movies here-->
+            <form action="" id="addMovies">
+                <input type="text" name="Movies URL" id="url" class="urlBox" >
+                <input type="submit" name="Submit" id="addMovieBtn" class="urlBox">
+            </form>
+        </div>
+    </body>
+
+</html>
+<script src="./scripts/index.js"></script>
+<!-- <script>
+    let getSlidesImagePath = document.getElementById('addMovies')
+    getSlidesImagePath.addEventListener("submit",addSlides)
+    
+    function addSlides()
+    {
+        event.preventDefault();
+        console.log("test")
+    }
+    
+
+</script> -->
